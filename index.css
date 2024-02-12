@@ -71,7 +71,7 @@
 
     #grid {
         display: grid;
-        grid-template-rows: auto 250px 250px 250px;
+        grid-template-rows: auto 250px 250px 250px 250px;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
@@ -85,7 +85,7 @@
         font-size: 6em;
     }
 
-    #grid p:first-child {
+    #grid p:first-of-type {
         grid-column: span 2;
     }
 
