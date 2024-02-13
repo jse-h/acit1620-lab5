@@ -94,10 +94,6 @@
         grid-row: 3 / span 3;
     }
 
-    footer div img {
-        align-content: flex-end;
-    }
-
     footer div {
         flex-direction: row;
         padding: 4em;
